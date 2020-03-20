@@ -106,7 +106,7 @@ public class UserChoice {
                     heartRateLabel.setText("Heart Rate= " + df.format(User.getHeartRate())  + " bpm");
                     caloriesLabel.setText("Calories Burnt=  " + User.getCalories() + " cal");
                     Recorded.setText("Activity recorded \n successfully");
-                    Recorded.setFont(Font.font("verdana", FontWeight.BOLD, FontPosture.REGULAR, 13));
+                    Recorded.setFont(Font.font("verdana", FontWeight.BOLD, FontPosture.REGULAR, 15));
 
                 }
                 else if(activity.equalsIgnoreCase("Running"))
@@ -133,7 +133,7 @@ public class UserChoice {
                     heartRateLabel.setText("Heart Rate= " + df.format(User.getHeartRate()) + " bpm");
                     caloriesLabel.setText("Calories Burnt=  " + User.getCalories() + " cal");
                     Recorded.setText("Activity recorded\n successfully");
-                    Recorded.setFont(Font.font("verdana", FontWeight.BOLD, FontPosture.REGULAR, 13));
+                    Recorded.setFont(Font.font("verdana", FontWeight.BOLD, FontPosture.REGULAR, 15));
 
                 }
                 else {
